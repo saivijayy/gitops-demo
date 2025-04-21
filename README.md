@@ -77,10 +77,6 @@ Commit & push to GitHub
 ```
 ### ArgoCD syncs automatically → pod updated!
 
-✅ Updated Section: Access NGINX using Minikube
-markdown
-Copy
-Edit
 ### 7. 🌐 Accessing NGINX App via Minikube
 
 After ArgoCD deploys the NGINX app, you can expose and access it using Minikube:
@@ -116,6 +112,8 @@ Allow you to view the running NGINX homepage
 |-----------|---------------|-------------|------------------------|
 | default   | nginx-service |          80 | http://127.0.0.1:33171 |
 ```
+✅ The NGINX service was accessed using `minikube service nginx-service`.
+
 ### 📄 Resume Line
 Implemented GitOps pipeline using ArgoCD and Kubernetes to automate app deployment from GitHub to a Kubernetes cluster.
 
