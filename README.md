@@ -96,14 +96,6 @@ nginx-service   NodePort   10.96.34.121   <none>        80:30544/TCP   5m
 minikube service nginx-service
 ```
 
-### This will:
-
-Start a tunnel to expose the NodePort
-
-Open the default browser (or show the URL like http://127.0.0.1:33171)
-
-Allow you to view the running NGINX homepage
-
 ### Example output:
 ```pgsql
 🏃  Starting tunnel for service nginx-service.
